@@ -14,7 +14,7 @@ nightly = ["scuttlebutt/nightly"]
 serde = ["dep:serde", "dep:serde_json", "scuttlebutt/serde"]
 
 [dependencies]
-fancy-garbling-base-conversion = { path = "fancy-garbling_new/base_conversion" }
+fancy-garbling-base-conversion = { path = "https://github.com/FatemehJD/fancy-garbling_new/base_conversion" }
 scuttlebutt = { git = "https://github.com/FatemehJD/scuttlebutt", branch = "main" }
 ocelot = { git = "https://github.com/FatemehJD/ocelot", branch = "main" }
 vectoreyes = { git = "https://github.com/FatemehJD/vectoreyes", branch = "main" }
